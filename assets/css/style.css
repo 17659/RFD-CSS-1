@@ -1,9 +1,44 @@
+@import url("reset.css");
+
+body {
+  font-size: 16px;
+  font-family: Arial; Verdana; sans-serif;
+}
+
 h1 {
   color: red;
+  background-color: black;
+  font-size: 40px;
 }
 h2 {
   color: green;
+  background-color: yellow;
 }
+
+.deTravers {
+  font-style: italic;
+}
+
+.barre {
+  text-decoration: line-through;
+}
+
+
 p {
-  color: blue;
+  color: black;
+  font-size: 20px;
+}
+
+p#un {
+  background-color: red;
+}
+p#deux {
+  background-color: green;
+  text-decoration: none;
+}
+p#trois {
+  background-color: pink;
+}
+p#quatre {
+  background-color: blue;
 }
